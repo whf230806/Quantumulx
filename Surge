@@ -103,6 +103,9 @@ Apple = select,🌑Proxy,🕹AutoTest,policy-path=https://www.oxygenplaza.net/do
 🕹AutoTest = url-test,policy-path=https://www.oxygenplaza.net/downloadConfig/NodeList.aspx?urk=74d560ea-7b10-4e38-9bbe-67c3876c4490&eq=pc,url = http://www.gstatic.com/generate_204
 # 冲鸭机场 (代理服务商提供的代理列表订阅示例)
 Nexitally = select, policy-path=https://www.oxygenplaza.net/downloadConfig/NodeList.aspx?urk=74d560ea-7b10-4e38-9bbe-67c3876c4490&eq=pc
+# 冲鸭机场 (代理服务商提供的代理列表订阅示例)
+Maoxiong = select, policy-path=# 冲鸭机场 (代理服务商提供的代理列表订阅示例)
+Nexitally = select, policy-path=https://www.oxygenplaza.net/downloadConfig/NodeList.aspx?urk=74d560ea-7b10-4e38-9bbe-67c3876c4490&eq=pc
 
 [Rule]
 # https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Extra/Apple/BlockiOSUpdate.list,⛔️Reject
