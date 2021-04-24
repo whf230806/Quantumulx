@@ -89,6 +89,8 @@ hide-udp = 0
 🧭Final = select,🌑Proxy,🌐Direct
 # 节点选项
 🌑Proxy = select,🧯Fallback,🕹AutoTest,Nexitally
+#Apple
+Apple = select,🌑Proxy,🕹AutoTest,policy-path=https://www.oxygenplaza.net/downloadConfig/NodeList.aspx?urk=74d560ea-7b10-4e38-9bbe-67c3876c4490&eq=pc
 # 国际流媒体服务
 🎞Streaming = select,🌑Proxy,🕹AutoTest,policy-path=https://www.oxygenplaza.net/downloadConfig/NodeList.aspx?urk=74d560ea-7b10-4e38-9bbe-67c3876c4490&eq=pc
 # 中国流媒体服务（面向海外版本）
@@ -140,11 +142,11 @@ RULE-SET,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ru
 # StreamingSE 中国流媒体服务（面向海外版本）
 RULE-SET,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/StreamingSE.list,🎞StreamingSE
 
-# Apple 服务
-# 在 https://github.com/DivineEngine/Profiles/tree/master/Surge/Ruleset/Extra/Apple 获取所需服务引入 Ruleset 类型规则及新建策略组。
-
 # Global 全球加速
 RULE-SET,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Global.list,🌑Proxy
+
+# Apple 服务
+https://github.com/DivineEngine/Profiles/tree/master/Surge/Ruleset/Extra/Apple,Apple
 
 # China 中国直连
 RULE-SET,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/China.list,🌐Direct
