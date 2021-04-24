@@ -104,10 +104,10 @@ Apple = select,🌑Proxy,🕹AutoTest,policy-path=https://www.oxygenplaza.net/do
 # 冲鸭机场 (代理服务商提供的代理列表订阅示例)
 Nexitally = select, policy-path=https://www.oxygenplaza.net/downloadConfig/NodeList.aspx?urk=74d560ea-7b10-4e38-9bbe-67c3876c4490&eq=pc
 # 冲鸭机场 (代理服务商提供的代理列表订阅示例)
-Maoxiong = select, policy-path=https://maoxiongnet.com/link/TWnw1oy4M4dRrzZv?sub=3&extend=1
+Maoxiong = select, policy-path=https://sub.id9.cc/sub?target=surge&ver=4&url=https%3A%2F%2Fmaoxiongnet.com%2Flink%2FTWnw1oy4M4dRrzZv%3Fsub%3D3%26extend%3D1&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2Fwoshimaodaren%2F-sub-%2Fmain%2Fconfig%2Fmaoxiong.ini&filename=surge-mao&emoji=true&list=true&udp=true&tfo=false&scv=false&fdn=false&sort=false
 
 [Rule]
-# https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Extra/Apple/BlockiOSUpdate.list,⛔️Reject
+#https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Extra/Apple/BlockiOSUpdate.list,⛔️Reject
 
 # Client
 # > Proxy
